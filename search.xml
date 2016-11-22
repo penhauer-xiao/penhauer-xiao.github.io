@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+    
+    <entry>
+      <title><![CDATA[API Gateway]]></title>
+      <url>https://penhauer-xiao.github.io/blog/2016/11/22/Gateway/</url>
+      <content type="html"><![CDATA[<hr>
+<h1 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h1><p>API Gateway是开发人员的门户，友好可配支持多种安全认证模式、 流控限速、请求容断与自动恢复、负载均衡分发、高性能高可靠全球横向扩展，版本控制，支技多种脚本语言(JavaScrpit、Python、Ruby)API定制，支持线上自动实时测试并发报告，支持流量分析，监控异常流量。</p>
+<a id="more"></a>
+<h1 id="API-添加"><a href="#API-添加" class="headerlink" title="API 添加"></a>API 添加</h1><p><img src="api_add.png" alt=""></p>
+<h1 id="Policy-添加"><a href="#Policy-添加" class="headerlink" title="Policy 添加"></a>Policy 添加</h1><p><img src="policy_add.png" alt=""></p>
+<h1 id="API详情"><a href="#API详情" class="headerlink" title="API详情"></a>API详情</h1><p><img src="list_api.png" alt=""></p>
+<h1 id="Policy详情"><a href="#Policy详情" class="headerlink" title="Policy详情"></a>Policy详情</h1><p><img src="list_policy_key.png" alt=""></p>
+]]></content>
+    </entry>
+    
+  
+  
+</search>
