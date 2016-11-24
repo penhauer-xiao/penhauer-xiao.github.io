@@ -64,7 +64,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Go,JavaScript,Beego,HTML," />
+  <meta name="keywords" content="Go,API Gateway,API网关,后台,容断,安全,流控,JavaScript,Beego,HTML," />
 
 
 
@@ -92,7 +92,7 @@
 <meta property="og:image" content="http://oh31g4scx.bkt.clouddn.com/kentblog/images/2016-11-22-Gateway/policy_add.png">
 <meta property="og:image" content="http://oh31g4scx.bkt.clouddn.com/kentblog/images/2016-11-22-Gateway/list_api.png">
 <meta property="og:image" content="http://oh31g4scx.bkt.clouddn.com/kentblog/images/2016-11-22-Gateway/list_policy_key.png">
-<meta property="og:updated_time" content="2016-11-23T08:49:19.897Z">
+<meta property="og:updated_time" content="2016-11-24T02:50:24.174Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="API Gateway">
 <meta name="twitter:description" content="OverviewAPI Gateway&amp;#x662F;&amp;#x5F00;&amp;#x53D1;&amp;#x4EBA;&amp;#x5458;&amp;#x7684;&amp;#x95E8;&amp;#x6237;&amp;#xFF0C;&amp;#x53CB;&amp;#x597D;&amp;#x53EF;&amp;#x914D;&amp;#x652F;&amp;#x6301;&amp;#x591A;&amp;#x79CD;&amp;#x5B89;&amp;#x5168;&amp;#x8BA4;&amp;#x8BC1;&amp;#x6A21;&amp;#x5">
@@ -326,44 +326,8 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Go/" itemprop="url" rel="index">
-                    <span itemprop="name">Go</span>
-                  </a>
-                </span>
-
-                
-                
-                  ， 
-                
-
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Go/API-Gateway/" itemprop="url" rel="index">
-                    <span itemprop="name">API Gateway</span>
-                  </a>
-                </span>
-
-                
-                
-                  ， 
-                
-
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Go/API-Gateway/Beego/" itemprop="url" rel="index">
-                    <span itemprop="name">Beego</span>
-                  </a>
-                </span>
-
-                
-                
-                  ， 
-                
-
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Go/API-Gateway/Beego/后台/" itemprop="url" rel="index">
-                    <span itemprop="name">后台</span>
+                  <a href="/categories/API网关/" itemprop="url" rel="index">
+                    <span itemprop="name">API网关</span>
                   </a>
                 </span>
 
@@ -410,10 +374,10 @@
         <hr>
 <h1 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h1><p>API Gateway&#x662F;&#x5F00;&#x53D1;&#x4EBA;&#x5458;&#x7684;&#x95E8;&#x6237;&#xFF0C;&#x53CB;&#x597D;&#x53EF;&#x914D;&#x652F;&#x6301;&#x591A;&#x79CD;&#x5B89;&#x5168;&#x8BA4;&#x8BC1;&#x6A21;&#x5F0F;&#x3001; &#x6D41;&#x63A7;&#x9650;&#x901F;&#x3001;&#x8BF7;&#x6C42;&#x5BB9;&#x65AD;&#x4E0E;&#x81EA;&#x52A8;&#x6062;&#x590D;&#x3001;&#x8D1F;&#x8F7D;&#x5747;&#x8861;&#x5206;&#x53D1;&#x3001;&#x9AD8;&#x6027;&#x80FD;&#x9AD8;&#x53EF;&#x9760;&#x5168;&#x7403;&#x6A2A;&#x5411;&#x6269;&#x5C55;&#xFF0C;&#x7248;&#x672C;&#x63A7;&#x5236;&#xFF0C;&#x652F;&#x6280;&#x591A;&#x79CD;&#x811A;&#x672C;&#x8BED;&#x8A00;(JavaScrpit&#x3001;Python&#x3001;Ruby)API&#x5B9A;&#x5236;&#xFF0C;&#x652F;&#x6301;&#x7EBF;&#x4E0A;&#x81EA;&#x52A8;&#x5B9E;&#x65F6;&#x6D4B;&#x8BD5;&#x5E76;&#x53D1;&#x62A5;&#x544A;&#xFF0C;&#x652F;&#x6301;&#x6D41;&#x91CF;&#x5206;&#x6790;&#xFF0C;&#x76D1;&#x63A7;&#x5F02;&#x5E38;&#x6D41;&#x91CF;&#x3002;</p>
 <a id="more"></a>
-<h1 id="API-&#x6DFB;&#x52A0;"><a href="#API-&#x6DFB;&#x52A0;" class="headerlink" title="API &#x6DFB;&#x52A0;"></a>API &#x6DFB;&#x52A0;</h1><p><img src="http://oh31g4scx.bkt.clouddn.com/kentblog/images/2016-11-22-Gateway/api_add.png" alt="&#x56FE;&#x7247;"></p>
-<h1 id="Policy-&#x6DFB;&#x52A0;"><a href="#Policy-&#x6DFB;&#x52A0;" class="headerlink" title="Policy &#x6DFB;&#x52A0;"></a>Policy &#x6DFB;&#x52A0;</h1><p><img src="http://oh31g4scx.bkt.clouddn.com/kentblog/images/2016-11-22-Gateway/policy_add.png" alt=""></p>
-<h1 id="API&#x8BE6;&#x60C5;"><a href="#API&#x8BE6;&#x60C5;" class="headerlink" title="API&#x8BE6;&#x60C5;"></a>API&#x8BE6;&#x60C5;</h1><p><img src="http://oh31g4scx.bkt.clouddn.com/kentblog/images/2016-11-22-Gateway/list_api.png" alt=""></p>
-<h1 id="Policy&#x548C;Key&#x8BE6;&#x60C5;"><a href="#Policy&#x548C;Key&#x8BE6;&#x60C5;" class="headerlink" title="Policy&#x548C;Key&#x8BE6;&#x60C5;"></a>Policy&#x548C;Key&#x8BE6;&#x60C5;</h1><p><img src="http://oh31g4scx.bkt.clouddn.com/kentblog/images/2016-11-22-Gateway/list_policy_key.png" alt=""></p>
+<h1 id="API-&#x6DFB;&#x52A0;"><a href="#API-&#x6DFB;&#x52A0;" class="headerlink" title="API &#x6DFB;&#x52A0;"></a>API &#x6DFB;&#x52A0;</h1><p><img src="http://oh31g4scx.bkt.clouddn.com/kentblog/images/2016-11-22-Gateway/api_add.png" alt="Image"></p>
+<h1 id="Policy-&#x6DFB;&#x52A0;"><a href="#Policy-&#x6DFB;&#x52A0;" class="headerlink" title="Policy &#x6DFB;&#x52A0;"></a>Policy &#x6DFB;&#x52A0;</h1><p><img src="http://oh31g4scx.bkt.clouddn.com/kentblog/images/2016-11-22-Gateway/policy_add.png" alt="Image"></p>
+<h1 id="API&#x8BE6;&#x60C5;"><a href="#API&#x8BE6;&#x60C5;" class="headerlink" title="API&#x8BE6;&#x60C5;"></a>API&#x8BE6;&#x60C5;</h1><p><img src="http://oh31g4scx.bkt.clouddn.com/kentblog/images/2016-11-22-Gateway/list_api.png" alt="Image"></p>
+<h1 id="Policy&#x548C;Key&#x8BE6;&#x60C5;"><a href="#Policy&#x548C;Key&#x8BE6;&#x60C5;" class="headerlink" title="Policy&#x548C;Key&#x8BE6;&#x60C5;"></a>Policy&#x548C;Key&#x8BE6;&#x60C5;</h1><p><img src="http://oh31g4scx.bkt.clouddn.com/kentblog/images/2016-11-22-Gateway/list_policy_key.png" alt="Image"></p>
 
       
     </div>
@@ -436,6 +400,18 @@
           
             <a href="/tags/Go/" rel="tag">#Go</a>
           
+            <a href="/tags/API-Gateway/" rel="tag">#API Gateway</a>
+          
+            <a href="/tags/API网关/" rel="tag">#API网关</a>
+          
+            <a href="/tags/后台/" rel="tag">#后台</a>
+          
+            <a href="/tags/容断/" rel="tag">#容断</a>
+          
+            <a href="/tags/安全/" rel="tag">#安全</a>
+          
+            <a href="/tags/流控/" rel="tag">#流控</a>
+          
             <a href="/tags/JavaScript/" rel="tag">#JavaScript</a>
           
             <a href="/tags/Beego/" rel="tag">#Beego</a>
@@ -449,8 +425,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/blog/2015/01/10/开篇易中天中华吏/" rel="next" title="开篇易中天中华吏">
-                <i class="fa fa-chevron-left"></i> 开篇易中天中华吏
+              <a href="/blog/2015/11/24/ELK架构/" rel="next" title="ELK架构">
+                <i class="fa fa-chevron-left"></i> ELK架构
               </a>
             
           </div>
@@ -549,7 +525,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">2</span>
+              <span class="site-state-item-count">3</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -557,7 +533,7 @@
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -566,7 +542,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">7</span>
+                <span class="site-state-item-count">23</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>

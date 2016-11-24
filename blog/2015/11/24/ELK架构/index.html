@@ -64,7 +64,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="博客、软件、Java、Git、Web、Html、CSS、JS、PHP" />
+  <meta name="keywords" content="Elasticsearch,Logstash,Kibana,Beats,Heka,Nginx,Kafka,Zookeeper,Redis,Docker," />
 
 
 
@@ -82,15 +82,18 @@
 
 
 
-<meta name="description" content="I konw,You know that I konw,You konw">
-<meta property="og:type" content="website">
-<meta property="og:title" content="KentBlog">
-<meta property="og:url" content="https://penhauer-xiao.github.io/index.html">
+<meta name="description" content="&amp;#x524D;&amp;#x8A00;&amp;#x968F;&amp;#x7740;&amp;#x5982;&amp;#x4ECA;&amp;#x79FB;&amp;#x52A8;&amp;#x4E92;&amp;#x8054;&amp;#x7F51;&amp;#x65E0;&amp;#x5904;&amp;#x4E0D;&amp;#x5728;&amp;#xFF0C;&amp;#x5404;&amp;#x79CD;&amp;#x5E94;&amp;#x7528;&amp;#x4E00;&amp;#x7ECF;&amp;#x63A8;&amp;#x51FA;&amp;#x5E02">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ELK架构">
+<meta property="og:url" content="https://penhauer-xiao.github.io/blog/2015/11/24/ELK架构/index.html">
 <meta property="og:site_name" content="KentBlog">
-<meta property="og:description" content="I konw,You know that I konw,You konw">
+<meta property="og:description" content="&amp;#x524D;&amp;#x8A00;&amp;#x968F;&amp;#x7740;&amp;#x5982;&amp;#x4ECA;&amp;#x79FB;&amp;#x52A8;&amp;#x4E92;&amp;#x8054;&amp;#x7F51;&amp;#x65E0;&amp;#x5904;&amp;#x4E0D;&amp;#x5728;&amp;#xFF0C;&amp;#x5404;&amp;#x79CD;&amp;#x5E94;&amp;#x7528;&amp;#x4E00;&amp;#x7ECF;&amp;#x63A8;&amp;#x51FA;&amp;#x5E02">
+<meta property="og:image" content="http://oh31g4scx.bkt.clouddn.com/kentblog/images/2015-11-24-ELK架构/ELK.png">
+<meta property="og:updated_time" content="2016-11-24T02:50:04.966Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="KentBlog">
-<meta name="twitter:description" content="I konw,You know that I konw,You konw">
+<meta name="twitter:title" content="ELK架构">
+<meta name="twitter:description" content="&amp;#x524D;&amp;#x8A00;&amp;#x968F;&amp;#x7740;&amp;#x5982;&amp;#x4ECA;&amp;#x79FB;&amp;#x52A8;&amp;#x4E92;&amp;#x8054;&amp;#x7F51;&amp;#x65E0;&amp;#x5904;&amp;#x4E0D;&amp;#x5728;&amp;#xFF0C;&amp;#x5404;&amp;#x79CD;&amp;#x5E94;&amp;#x7528;&amp;#x4E00;&amp;#x7ECF;&amp;#x63A8;&amp;#x51FA;&amp;#x5E02">
+<meta name="twitter:image" content="http://oh31g4scx.bkt.clouddn.com/kentblog/images/2015-11-24-ELK架构/ELK.png">
 
 
 
@@ -108,7 +111,7 @@
   };
 </script>
 
-  <title> KentBlog </title>
+  <title> ELK架构 | KentBlog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -148,9 +151,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -274,9 +275,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -296,133 +297,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/blog/2016/11/22/Gateway/" itemprop="url">
-                  API Gateway
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-11-22T10:36:27+08:00" content="2016-11-22">
-              2016-11-22
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/API网关/" itemprop="url" rel="index">
-                    <span itemprop="name">API网关</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/blog/2016/11/22/Gateway/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="blog/2016/11/22/Gateway/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <hr>
-<h1 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h1><p>API Gateway&#x662F;&#x5F00;&#x53D1;&#x4EBA;&#x5458;&#x7684;&#x95E8;&#x6237;&#xFF0C;&#x53CB;&#x597D;&#x53EF;&#x914D;&#x652F;&#x6301;&#x591A;&#x79CD;&#x5B89;&#x5168;&#x8BA4;&#x8BC1;&#x6A21;&#x5F0F;&#x3001; &#x6D41;&#x63A7;&#x9650;&#x901F;&#x3001;&#x8BF7;&#x6C42;&#x5BB9;&#x65AD;&#x4E0E;&#x81EA;&#x52A8;&#x6062;&#x590D;&#x3001;&#x8D1F;&#x8F7D;&#x5747;&#x8861;&#x5206;&#x53D1;&#x3001;&#x9AD8;&#x6027;&#x80FD;&#x9AD8;&#x53EF;&#x9760;&#x5168;&#x7403;&#x6A2A;&#x5411;&#x6269;&#x5C55;&#xFF0C;&#x7248;&#x672C;&#x63A7;&#x5236;&#xFF0C;&#x652F;&#x6280;&#x591A;&#x79CD;&#x811A;&#x672C;&#x8BED;&#x8A00;(JavaScrpit&#x3001;Python&#x3001;Ruby)API&#x5B9A;&#x5236;&#xFF0C;&#x652F;&#x6301;&#x7EBF;&#x4E0A;&#x81EA;&#x52A8;&#x5B9E;&#x65F6;&#x6D4B;&#x8BD5;&#x5E76;&#x53D1;&#x62A5;&#x544A;&#xFF0C;&#x652F;&#x6301;&#x6D41;&#x91CF;&#x5206;&#x6790;&#xFF0C;&#x76D1;&#x63A7;&#x5F02;&#x5E38;&#x6D41;&#x91CF;&#x3002;</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/blog/2016/11/22/Gateway/" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-    
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/blog/2015/11/24/ELK架构/" itemprop="url">
-                  ELK架构
-                </a>
+                ELK架构
               
             
           </h1>
@@ -477,128 +352,10 @@
           
 
           
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <hr>
-<h1 id="&#x524D;&#x8A00;"><a href="#&#x524D;&#x8A00;" class="headerlink" title="&#x524D;&#x8A00;"></a>&#x524D;&#x8A00;</h1><p>&#x968F;&#x7740;&#x5982;&#x4ECA;&#x79FB;&#x52A8;&#x4E92;&#x8054;&#x7F51;&#x65E0;&#x5904;&#x4E0D;&#x5728;&#xFF0C;&#x5404;&#x79CD;&#x5E94;&#x7528;&#x4E00;&#x7ECF;&#x63A8;&#x51FA;&#x5E02;&#x573A;&#xFF1B; &#x8BF7;&#x6C42;&#x91CF;&#x6BD4;PC&#x4E92;&#x8054;&#x7F51;&#x65F6;&#x4EE3;&#x662F;&#x51E0;&#x4F55;&#x7EA7;&#x7684;&#x589E;&#x957F;&#xFF0C;&#x670D;&#x52A1;&#x5668;&#x7684;&#x90E8;&#x7F72;&#x4E5F;&#x662F;&#x5938;&#x533A;&#x57DF;&#x90E8;&#x7F72;&#xFF1B; &#x5404;&#x79CD;&#x5E94;&#x7528;&#x4E3A;&#x4E86;&#x4FDD;&#x6301;&#x9AD8;&#x53EF;&#x9760;&#xFF0C;&#x4E5F;&#x5FC5;&#x987B;&#x505A;&#x5230;&#x968F;&#x65F6;&#x6A2A;&#x5411;&#x6269;&#x5C55;&#x591A;&#x533A;&#x57DF;&#x90E8;&#x7F72;&#xFF1B; &#x6B64;&#x65F6;&#x9762;&#x5BF9;&#x4E00;&#x4E2A;&#x95EE;&#x9898;&#x65F6;&#x5982;&#x4F55;&#x76D1;&#x63A7;&#x5206;&#x5E03;&#x5728;&#x4E0D;&#x540C;&#x56FD;&#x5BB6;&#xFF0C;&#x4E0D;&#x540C;&#x5730;&#x533A;&#x7684;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x53CA;&#x7528;&#x5E94;&#xFF1B;&#x5F53;&#x6211;&#x4EEC;&#x7684;&#x5E94;&#x7528;&#x51FA;&#x73B0;&#x4E86;&#x4E00;&#x4E9B;&#x95EE;&#x9898;,&#x4E3A;&#x4E86;&#x8DDF;&#x8E2A;&#x4E8B;&#x60C5;&#x53D1;&#x751F;&#x7684;&#x539F;&#x56E0;&#xFF0C;&#x5BFB;&#x627E;&#x53D1;&#x751F;&#x95EE;&#x9898;&#x7684;&#x86DB;&#x4E1D;&#x9A6C;&#x8FF9;&#xFF0C;&#x5E94;&#x7528;&#x5F53;&#x65F6;&#x8FD0;&#x884C;&#x65F6;&#x53D1;&#x751F;&#x95EE;&#x9898;&#x7559;&#x4E0B;&#x7684;&#x75D5;&#x8FF9;&#xFF0C;&#x65E0;&#x53EF;&#x907F;&#x514D;&#x8981;&#x7528;&#x5230;&#x6587;&#x5B57;&#xFF0C;&#x56FE;&#x8C61;&#x7B49;&#x7B49;&#x4E0D;&#x540C;&#x5F62;&#x5F0F;&#x7684;&#x8BB0;&#x5F55;; &#x884C;&#x5185;&#x6240;&#x8BF4;&#x5373;&#x662F;Log,&#x6216;&#x53EB;&#x65E5;&#x5FD7;&#xFF1B; &#x8FD9;&#x6837;&#x4E5F;&#x907F;&#x514D;&#x9700;&#x5230;&#x95EE;&#x9898;&#x65E0;&#x5904;&#x7740;&#x624B;&#xFF0C;&#x96BE;&#x4EE5;&#x91CD;&#x73B0;&#x6216;&#x662F;&#x8FD8;&#x539F;&#x5F53;&#x65F6;&#x53D1;&#x751F;&#x7684;&#x73B0;&#x573A;&#xFF1B;&#x6216;&#x662F;&#x91CD;&#x73B0;&#x6216;&#x8FD8;&#x539F;&#x73B0;&#x573A;&#x7684;&#x65F6;&#x95F4;&#x5F88;&#x957F;&#xFF0C;&#x6210;&#x672C;&#x5F88;&#x9AD8;&#xFF1B;&#x767B;&#x9646;&#x5230;&#x4E00;&#x53F0;&#x53F0;&#x673A;&#x5668;&#x4E0A;&#x67E5;&#x770B;&#xFF0C;&#x770B;&#x6765;&#x4F20;&#x7EDF;&#x7684;&#x5DE5;&#x5177;&#x548C;&#x65B9;&#x6CD5;&#x5DF2;&#x7ECF;&#x663E;&#x5F97;&#x975E;&#x5E38;&#x7B28;&#x62D9;&#x548C;&#x4F4E;&#x6548;&#xFF1B;&#x4E8E;&#x662F;&#xFF0C;&#x5EFA;&#x7ACB;&#x4E00;&#x5957;&#x96C6;&#x4E2D;&#x5F0F;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x628A;&#x4E0D;&#x540C;&#x6765;&#x6E90;&#x7684;&#x6570;&#x636E;<br>&#x96C6;&#x4E2D;&#x6574;&#x5408;&#x5230;&#x4E00;&#x4E2A;&#x5730;&#x65B9;&#x3002;</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/blog/2015/11/24/ELK架构/" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-    
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/blog/2015/01/10/开篇易中天中华吏/" itemprop="url">
-                  开篇易中天中华吏
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2015-01-10T10:36:27+08:00" content="2015-01-10">
-              2015-01-10
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
               &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
+              <span class="page-pv">阅读次数
+              <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
               </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/历史/" itemprop="url" rel="index">
-                    <span itemprop="name">历史</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/blog/2015/01/10/开篇易中天中华吏/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="blog/2015/01/10/开篇易中天中华吏/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
           
         </div>
       </header>
@@ -611,43 +368,119 @@
       
 
       
-        
-          <hr>
-<h1 id="&#x5F00;&#x7BC7;&#x6613;&#x4E2D;&#x5929;&#x4E2D;&#x534E;&#x540F;"><a href="#&#x5F00;&#x7BC7;&#x6613;&#x4E2D;&#x5929;&#x4E2D;&#x534E;&#x540F;" class="headerlink" title="&#x5F00;&#x7BC7;&#x6613;&#x4E2D;&#x5929;&#x4E2D;&#x534E;&#x540F;"></a>&#x5F00;&#x7BC7;&#x6613;&#x4E2D;&#x5929;&#x4E2D;&#x534E;&#x540F;</h1><p>&#x300A;&#x6613;&#x4E2D;&#x5929;&#x4E2D;&#x534E;&#x53F2;&#x300B;&#x662F;&#x7531;&#x53A6;&#x95E8;&#x5927;&#x5B66;&#x6613;&#x4E2D;&#x5929;&#x6559;&#x6388;&#x7F16;&#x5199;&#x7684;&#x4E09;&#x5341;&#x4E8C;&#x5377;&#x5173;&#x4E8E;&#x4E2D;&#x534E;&#x5386;&#x53F2;&#x7684;&#x7CFB;&#x5217;&#x4E1B;&#x4E66;&#xFF0C;&#x8BE5;&#x7CFB;&#x5217;&#x4ECE;&#x53F2;&#x524D;&#x65F6;&#x4EE3;&#x4E00;&#x76F4;&#x8BB2;&#x8FF0;&#x5230;&#x4E2D;&#x534E;&#x4EBA;&#x6C11;&#x5171;&#x548C;&#x56FD;&#x9093;&#x5C0F;&#x5E73;&#x65F6;&#x4EE3;&#xFF0C;&#x8BB2;&#x8FF0;&#x5E76;&#x5206;&#x6790;&#x6BCF;&#x4E2A;&#x4E2D;&#x56FD;&#x671D;&#x4EE3;&#x7684;&#x5386;&#x53F2;&#x56E0;&#x7D20;&#x4E0E;&#x653F;&#x6CBB;&#x4F53;&#x5236;&#x95EE;&#x9898;&#xFF0C;&#x6B64;&#x5916;&#x8FD8;&#x8BB2;&#x8FF0;&#x4E86;&#x90E8;&#x5206;&#x4E2D;&#x4E9A;&#x6B27;&#x6D32;&#x5386;&#x53F2;&#x3002;&#x8BE5;&#x4E1B;&#x4E66;&#x5206;&#x4E3A;&#x516D;&#x90E8;&#x4E09;&#x5341;&#x4E8C;&#x5377;&#xFF0C;&#x76EE;&#x524D;&#x5904;&#x4E8E;&#x8FB9;&#x5199;&#x8FB9;&#x51FA;&#x7248;&#x7684;&#x72B6;&#x6001;&#xFF0C;&#x73B0;&#x5DF2;&#x51FA;&#x7248;&#x81F3;&#x7B2C;&#x4E09;&#x90E8;&#x300A;&#x968B;&#x5510;&#x300B;&#x603B;&#x7B2C;&#x5341;&#x516D;&#x5377;&#x300A;&#x5B89;&#x53F2;&#x4E4B;&#x4E71;&#x300B;&#x3002;&#x8BE5;&#x4E1B;&#x4E66;&#x5728;&#x5927;&#x9646;&#x7F51;&#x7AD9;&#x63D0;&#x4F9B;&#x7535;&#x5B50;&#x7248;&#x516C;&#x5F00;&#x6536;&#x8D39;&#x9605;&#x8BFB;&#xFF0C;&#x5E76;&#x4E14;&#x5DF2;&#x5728;&#x97E9;&#x56FD;&#x4E0E;&#x9999;&#x6E2F;&#x5730;&#x533A;&#x53D1;&#x884C;&#x97E9;&#x6587;&#x8BD1;&#x7248;&#x53CA;&#x7E41;&#x4F53;&#x4E2D;&#x6587;&#x7248;</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/blog/2015/01/10/开篇易中天中华吏/" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
+        <hr>
+<h1 id="&#x524D;&#x8A00;"><a href="#&#x524D;&#x8A00;" class="headerlink" title="&#x524D;&#x8A00;"></a>&#x524D;&#x8A00;</h1><p>&#x968F;&#x7740;&#x5982;&#x4ECA;&#x79FB;&#x52A8;&#x4E92;&#x8054;&#x7F51;&#x65E0;&#x5904;&#x4E0D;&#x5728;&#xFF0C;&#x5404;&#x79CD;&#x5E94;&#x7528;&#x4E00;&#x7ECF;&#x63A8;&#x51FA;&#x5E02;&#x573A;&#xFF1B; &#x8BF7;&#x6C42;&#x91CF;&#x6BD4;PC&#x4E92;&#x8054;&#x7F51;&#x65F6;&#x4EE3;&#x662F;&#x51E0;&#x4F55;&#x7EA7;&#x7684;&#x589E;&#x957F;&#xFF0C;&#x670D;&#x52A1;&#x5668;&#x7684;&#x90E8;&#x7F72;&#x4E5F;&#x662F;&#x5938;&#x533A;&#x57DF;&#x90E8;&#x7F72;&#xFF1B; &#x5404;&#x79CD;&#x5E94;&#x7528;&#x4E3A;&#x4E86;&#x4FDD;&#x6301;&#x9AD8;&#x53EF;&#x9760;&#xFF0C;&#x4E5F;&#x5FC5;&#x987B;&#x505A;&#x5230;&#x968F;&#x65F6;&#x6A2A;&#x5411;&#x6269;&#x5C55;&#x591A;&#x533A;&#x57DF;&#x90E8;&#x7F72;&#xFF1B; &#x6B64;&#x65F6;&#x9762;&#x5BF9;&#x4E00;&#x4E2A;&#x95EE;&#x9898;&#x65F6;&#x5982;&#x4F55;&#x76D1;&#x63A7;&#x5206;&#x5E03;&#x5728;&#x4E0D;&#x540C;&#x56FD;&#x5BB6;&#xFF0C;&#x4E0D;&#x540C;&#x5730;&#x533A;&#x7684;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x53CA;&#x7528;&#x5E94;&#xFF1B;&#x5F53;&#x6211;&#x4EEC;&#x7684;&#x5E94;&#x7528;&#x51FA;&#x73B0;&#x4E86;&#x4E00;&#x4E9B;&#x95EE;&#x9898;,&#x4E3A;&#x4E86;&#x8DDF;&#x8E2A;&#x4E8B;&#x60C5;&#x53D1;&#x751F;&#x7684;&#x539F;&#x56E0;&#xFF0C;&#x5BFB;&#x627E;&#x53D1;&#x751F;&#x95EE;&#x9898;&#x7684;&#x86DB;&#x4E1D;&#x9A6C;&#x8FF9;&#xFF0C;&#x5E94;&#x7528;&#x5F53;&#x65F6;&#x8FD0;&#x884C;&#x65F6;&#x53D1;&#x751F;&#x95EE;&#x9898;&#x7559;&#x4E0B;&#x7684;&#x75D5;&#x8FF9;&#xFF0C;&#x65E0;&#x53EF;&#x907F;&#x514D;&#x8981;&#x7528;&#x5230;&#x6587;&#x5B57;&#xFF0C;&#x56FE;&#x8C61;&#x7B49;&#x7B49;&#x4E0D;&#x540C;&#x5F62;&#x5F0F;&#x7684;&#x8BB0;&#x5F55;; &#x884C;&#x5185;&#x6240;&#x8BF4;&#x5373;&#x662F;Log,&#x6216;&#x53EB;&#x65E5;&#x5FD7;&#xFF1B; &#x8FD9;&#x6837;&#x4E5F;&#x907F;&#x514D;&#x9700;&#x5230;&#x95EE;&#x9898;&#x65E0;&#x5904;&#x7740;&#x624B;&#xFF0C;&#x96BE;&#x4EE5;&#x91CD;&#x73B0;&#x6216;&#x662F;&#x8FD8;&#x539F;&#x5F53;&#x65F6;&#x53D1;&#x751F;&#x7684;&#x73B0;&#x573A;&#xFF1B;&#x6216;&#x662F;&#x91CD;&#x73B0;&#x6216;&#x8FD8;&#x539F;&#x73B0;&#x573A;&#x7684;&#x65F6;&#x95F4;&#x5F88;&#x957F;&#xFF0C;&#x6210;&#x672C;&#x5F88;&#x9AD8;&#xFF1B;&#x767B;&#x9646;&#x5230;&#x4E00;&#x53F0;&#x53F0;&#x673A;&#x5668;&#x4E0A;&#x67E5;&#x770B;&#xFF0C;&#x770B;&#x6765;&#x4F20;&#x7EDF;&#x7684;&#x5DE5;&#x5177;&#x548C;&#x65B9;&#x6CD5;&#x5DF2;&#x7ECF;&#x663E;&#x5F97;&#x975E;&#x5E38;&#x7B28;&#x62D9;&#x548C;&#x4F4E;&#x6548;&#xFF1B;&#x4E8E;&#x662F;&#xFF0C;&#x5EFA;&#x7ACB;&#x4E00;&#x5957;&#x96C6;&#x4E2D;&#x5F0F;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x628A;&#x4E0D;&#x540C;&#x6765;&#x6E90;&#x7684;&#x6570;&#x636E;<br>&#x96C6;&#x4E2D;&#x6574;&#x5408;&#x5230;&#x4E00;&#x4E2A;&#x5730;&#x65B9;&#x3002;</p>
+<a id="more"></a>
+<h2 id="&#x4E00;&#x4E2A;&#x5B8C;&#x6574;&#x7684;&#x96C6;&#x4E2D;&#x5F0F;&#x65E5;&#x5FD7;&#x7CFB;&#x7EDF;&#xFF0C;&#x662F;&#x79BB;&#x4E0D;&#x5F00;&#x4EE5;&#x4E0B;&#x51E0;&#x4E2A;&#x4E3B;&#x8981;&#x7279;&#x70B9;&#x7684;&#x3002;"><a href="#&#x4E00;&#x4E2A;&#x5B8C;&#x6574;&#x7684;&#x96C6;&#x4E2D;&#x5F0F;&#x65E5;&#x5FD7;&#x7CFB;&#x7EDF;&#xFF0C;&#x662F;&#x79BB;&#x4E0D;&#x5F00;&#x4EE5;&#x4E0B;&#x51E0;&#x4E2A;&#x4E3B;&#x8981;&#x7279;&#x70B9;&#x7684;&#x3002;" class="headerlink" title="&#x4E00;&#x4E2A;&#x5B8C;&#x6574;&#x7684;&#x96C6;&#x4E2D;&#x5F0F;&#x65E5;&#x5FD7;&#x7CFB;&#x7EDF;&#xFF0C;&#x662F;&#x79BB;&#x4E0D;&#x5F00;&#x4EE5;&#x4E0B;&#x51E0;&#x4E2A;&#x4E3B;&#x8981;&#x7279;&#x70B9;&#x7684;&#x3002;"></a>&#x4E00;&#x4E2A;&#x5B8C;&#x6574;&#x7684;&#x96C6;&#x4E2D;&#x5F0F;&#x65E5;&#x5FD7;&#x7CFB;&#x7EDF;&#xFF0C;&#x662F;&#x79BB;&#x4E0D;&#x5F00;&#x4EE5;&#x4E0B;&#x51E0;&#x4E2A;&#x4E3B;&#x8981;&#x7279;&#x70B9;&#x7684;&#x3002;</h2><ul>
+<li>&#x6536;&#x96C6;&#xFF0D;&#x80FD;&#x591F;&#x91C7;&#x96C6;&#x591A;&#x79CD;&#x6765;&#x6E90;&#x7684;&#x65E5;&#x5FD7;&#x6570;&#x636E;</li>
+<li>&#x4F20;&#x8F93;&#xFF0D;&#x80FD;&#x591F;&#x7A33;&#x5B9A;&#x7684;&#x628A;&#x65E5;&#x5FD7;&#x6570;&#x636E;&#x4F20;&#x8F93;&#x5230;&#x4E2D;&#x592E;&#x7CFB;&#x7EDF;</li>
+<li>&#x5B58;&#x50A8;&#xFF0D;&#x5982;&#x4F55;&#x5B58;&#x50A8;&#x65E5;&#x5FD7;&#x6570;&#x636E;</li>
+<li>&#x5206;&#x6790;&#xFF0D;&#x53EF;&#x4EE5;&#x652F;&#x6301; UI &#x5206;&#x6790;</li>
+<li>&#x8B66;&#x544A;&#xFF0D;&#x80FD;&#x591F;&#x63D0;&#x4F9B;&#x9519;&#x8BEF;&#x62A5;&#x544A;&#xFF0C;&#x76D1;&#x63A7;&#x673A;&#x5236;</li>
+</ul>
+<h1 id="&#x67B6;&#x6784;&#x56FE;"><a href="#&#x67B6;&#x6784;&#x56FE;" class="headerlink" title="&#x67B6;&#x6784;&#x56FE;"></a>&#x67B6;&#x6784;&#x56FE;</h1><p>&#x7ECF;&#x8FC7;&#x51E0;&#x4E2A;&#x6708;&#x7684;&#x8FED;&#x4EE3;&#x548C;&#x6539;&#x7248;&#xFF0C; &#x6B64;&#x5F20;&#x67B6;&#x6784;&#x56FE;&#x662F;&#x76EE;&#x524D;&#x6211;&#x4EEC;&#x8FD0;&#x884C;&#x5728;&#x7EBF;&#x4E0A;&#x7684;&#x7A33;&#x5B9A;&#x7248;&#x672C;&#x6700;&#x7EC8;&#x89E3;&#x51B3;&#x65B9;&#x6848;<br><img src="http://oh31g4scx.bkt.clouddn.com/kentblog/images/2015-11-24-ELK&#x67B6;&#x6784;/ELK.png" alt="Image"></p>
+<h2 id="&#x6570;&#x636E;&#x91C7;&#x96C6;Broker"><a href="#&#x6570;&#x636E;&#x91C7;&#x96C6;Broker" class="headerlink" title="&#x6570;&#x636E;&#x91C7;&#x96C6;Broker"></a>&#x6570;&#x636E;&#x91C7;&#x96C6;Broker</h2><p>&#x76EE;&#x524D;&#x6211;&#x4EEC;&#x5728;&#x7F8E;&#x56FD;&#x7684;Agent Broker&#x7528;&#x7684;&#x662F;Logstah, &#x5728;&#x65E5;&#x672C;&#x7528;&#x7684;&#x662F;Heka,&#x5B83;&#x662F;Go&#x5199;&#x7684;&#xFF0C;&#x66F4;&#x8F7B;&#x91CF;&#xFF0C;&#x5148;&#x505A;&#x8BD5;&#x6C34;&#xFF0C;&#x7528;&#x8D77;&#x6765;&#x8FD8;&#x4E0D;&#x9519;&#xFF0C;&#x8FD8;&#x9700;&#x8981;&#x89C2;&#x5BDF;&#x4E00;&#x6BB5;&#x65F6;&#x95F4;&#xFF0C;&#x540E;&#x7EED;&#x53EF;&#x80FD;&#x7528;Beats&#x66FF;&#x4EE3;&#x6389;Logstah,&#x5B83;&#x4E5F;&#x662F;Go&#x5199;&#x7684;&#x3002;</p>
+<h2 id="&#x5206;&#x5E03;&#x5F0F;&#x7684;&#x6D88;&#x606F;&#x961F;&#x5217;"><a href="#&#x5206;&#x5E03;&#x5F0F;&#x7684;&#x6D88;&#x606F;&#x961F;&#x5217;" class="headerlink" title="&#x5206;&#x5E03;&#x5F0F;&#x7684;&#x6D88;&#x606F;&#x961F;&#x5217;"></a>&#x5206;&#x5E03;&#x5F0F;&#x7684;&#x6D88;&#x606F;&#x961F;&#x5217;</h2><p>&#x7B2C;&#x4E00;&#x4E2A;&#x7248;&#x672C;&#x6211;&#x4EEC;&#x4E0A;&#x7EBF;&#x662F;&#x7528;&#x7684;&#x662F;Redis&#x96C6;&#x7FA4;&#xFF0C;&#x540E;&#x9762;&#x6211;&#x4EEC;&#x8FD8;&#x662F;&#x8FC1;&#x79FB;&#x5230;&#x4E86;Kafka&#x96C6;&#x7FA4;&#x4F5C;&#x4E3A;&#x6211;&#x4EEC;&#x7684;&#x6D88;&#x606F;&#x5206;&#x5E03;&#x5F0F;&#x961F;&#x5217;&#x3002;</p>
+<h2 id="&#x6570;&#x636E;&#x6D88;&#x8D39;Indexer"><a href="#&#x6570;&#x636E;&#x6D88;&#x8D39;Indexer" class="headerlink" title="&#x6570;&#x636E;&#x6D88;&#x8D39;Indexer"></a>&#x6570;&#x636E;&#x6D88;&#x8D39;Indexer</h2><p>&#x76EE;&#x524D;Logstash&#x529F;&#x80FD;&#x66F4;&#x5F3A;&#x5927;&#xFF0C;&#x6BD5;&#x7ADF;&#x5B83;&#x90E8;&#x7F72;&#x4E0D;&#x5982;Agent&#x591A;&#xFF0C;&#x91CD;&#x5C31;&#x91CD;&#x70B9;&#x5427;&#xFF0C;&#x5C31;&#x7528;&#x5B83;&#x505A;Indexer&#x5427;&#x3002;</p>
+<h2 id="Kibana-UI"><a href="#Kibana-UI" class="headerlink" title="Kibana UI"></a>Kibana UI</h2><p>&#x6570;&#x636E;&#x7684;&#x67E5;&#x770B;&#xFF0C;&#x770B;&#x677F;&#x5E73;&#x53F0;</p>
+<h2 id="Nginx-&#x53CD;&#x5411;&#x4EE3;&#x7406;&#x5B89;&#x5168;"><a href="#Nginx-&#x53CD;&#x5411;&#x4EE3;&#x7406;&#x5B89;&#x5168;" class="headerlink" title="Nginx &#x53CD;&#x5411;&#x4EE3;&#x7406;&#x5B89;&#x5168;"></a>Nginx &#x53CD;&#x5411;&#x4EE3;&#x7406;&#x5B89;&#x5168;</h2><p>ELK&#x6211;&#x4EEC;&#x662F;&#x90E8;&#x7F72;&#x5728;&#x5185;&#x7F51;&#x7684;&#xFF0C;&#x5BF9;&#x5916;&#x4E0D;&#x53EF;&#x89C1;&#xFF0C;&#x6240;&#x6709;&#x7684;&#x8BF7;&#x6C42;&#x5FC5;&#x987B;&#x901A;&#x8FC7;Nginx&#x53CD;&#x5411;&#x4EE3;&#x7406;&#x8BBF;&#x95EE;&#x5230;&#xFF0C;Nginx&#x597D;&#x5904;&#x662F;&#xFF0C;&#x53EF;&#x4EE5;&#x5F25;&#x8865;Elasticsearch&#x66B4;&#x9732;&#x5728;&#x5916;&#x7684;&#x5B89;&#x5168;&#x6027;(&#x6709;&#x5B89;&#x5168;&#x63D2;&#x4EF6;&#xFF0C;&#x4F46;&#x53EF;&#x63A7;&#x6027;&#x6709;&#x5F85;&#x9A8C;&#x8BC1;)&#xFF0C;&#x5B83;&#x672C;&#x8EAB;&#x53EF;&#x4EE5;&#x914D;&#x57FA;&#x672C;&#x7684;&#x5B89;&#x5168;&#x8BA4;&#x8BC1;&#xFF1B; &#x6211;&#x4EEC;&#x5F00;&#x901A;Nginx&#x53CD;&#x5411;&#x4EE3;&#x7406;&#x51FA;&#x4E86;3&#x4E2A;&#x901A;&#x9053;&#x5230;ELK&#x96C6;&#x7FA4;&#x548C;Docker&#x96C6;&#x7FA4;,&#x5206;&#x522B;&#x662F;Elastchsearch&#x7684;&#x7BA1;&#x7406;&#x548C;&#x76D1;&#x63A7;&#xFF0C; Kibana&#x7684;&#x67E5;&#x770B;&#x4E0E;&#x8BBF;&#x95EE;&#xFF0C;Dcoker&#x96C6;&#x7FA4;&#x7684;&#x76D1;&#x63A7;&#x4E0E;&#x7BA1;&#x7406;&#x3002;</p>
+<h1 id="&#x5C55;&#x671B;"><a href="#&#x5C55;&#x671B;" class="headerlink" title="&#x5C55;&#x671B;"></a>&#x5C55;&#x671B;</h1><p>&#x540E;&#x7EED;&#x6211;&#x4F1A;&#x9646;&#x9646;&#x7EED;&#x7EED;&#x5206;&#x4EAB;&#x4E09;&#x7BC7;&#x6587;&#x7AE0;&#x51FA;&#x6765;&#xFF1B; &#x5206;&#x522B;&#x662F;ELK&#x642D;&#x5EFA;&#x8FC7;&#x7A0B;&#x56DE;&#x987E;&#x3001;Docker&#x96C6;&#x7FA4;&#x642D;&#x5EFA;&#x56DE;&#x987E;&#x3001;ELK&#x53CA;Dcoker&#x91C7;&#x5751;&#x548C;&#x9700;&#x5230;&#x7684;&#x95EE;&#x9898;&#x53CA;&#x5E94;&#x5BF9;&#x65B9;&#x6CD5;&#x3002;</p>
+
       
     </div>
     
     <div>
       
+        
+      
     </div>
 
     <div>
+      
+        
       
     </div>
 
     <footer class="post-footer">
       
-
+        <div class="post-tags">
+          
+            <a href="/tags/Elasticsearch/" rel="tag">#Elasticsearch</a>
+          
+            <a href="/tags/Logstash/" rel="tag">#Logstash</a>
+          
+            <a href="/tags/Kibana/" rel="tag">#Kibana</a>
+          
+            <a href="/tags/Beats/" rel="tag">#Beats</a>
+          
+            <a href="/tags/Heka/" rel="tag">#Heka</a>
+          
+            <a href="/tags/Nginx/" rel="tag">#Nginx</a>
+          
+            <a href="/tags/Kafka/" rel="tag">#Kafka</a>
+          
+            <a href="/tags/Zookeeper/" rel="tag">#Zookeeper</a>
+          
+            <a href="/tags/Redis/" rel="tag">#Redis</a>
+          
+            <a href="/tags/Docker/" rel="tag">#Docker</a>
+          
+        </div>
       
 
       
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/blog/2015/01/10/开篇易中天中华吏/" rel="next" title="开篇易中天中华吏">
+                <i class="fa fa-chevron-left"></i> 开篇易中天中华吏
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/blog/2016/11/22/Gateway/" rel="prev" title="API Gateway">
+                API Gateway <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
       
-        <div class="post-eof"></div>
+
+      
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+        <div class="ds-share flat" data-thread-key="blog/2015/11/24/ELK架构/"
+     data-title="ELK架构"
+     data-content=""
+     data-url="https://penhauer-xiao.github.io/blog/2015/11/24/ELK架构/">
+  <div class="ds-share-inline">
+    <ul  class="ds-share-icons-16">
+
+      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">新浪微博</a></li>
+      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+      <li><a class="ds-renren" href="javascript:void(0);" data-service="renren">人人网</a></li>
+      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+      <li><a class="ds-facebook" href="javascript:void(0);" data-service="facebook">Facebook</a></li>
+      <li><a class="ds-twitter" href="javascript:void(0);" data-service="twitter">Twitter</a></li>
+
+    </ul>
+    <div class="ds-share-icons-more">
+    </div>
+  </div>
+</div>
+
+      
+    </div>
+  </div>
 
 
           </div>
@@ -655,6 +488,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="blog/2015/11/24/ELK架构/"
+           data-title="ELK架构" data-url="https://penhauer-xiao.github.io/blog/2015/11/24/ELK架构/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -674,8 +515,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.jpg"
@@ -784,6 +634,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#一个完整的集中式日志系统，是离不开以下几个主要特点的。"><span class="nav-number">1.1.</span> <span class="nav-text">一个完整的集中式日志系统，是离不开以下几个主要特点的。</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#架构图"><span class="nav-number">2.</span> <span class="nav-text">架构图</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#数据采集Broker"><span class="nav-number">2.1.</span> <span class="nav-text">数据采集Broker</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#分布式的消息队列"><span class="nav-number">2.2.</span> <span class="nav-text">分布式的消息队列</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数据消费Indexer"><span class="nav-number">2.3.</span> <span class="nav-text">数据消费Indexer</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Kibana-UI"><span class="nav-number">2.4.</span> <span class="nav-text">Kibana UI</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Nginx-反向代理安全"><span class="nav-number">2.5.</span> <span class="nav-text">Nginx 反向代理安全</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#展望"><span class="nav-number">3.</span> <span class="nav-text">展望</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -906,6 +767,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
